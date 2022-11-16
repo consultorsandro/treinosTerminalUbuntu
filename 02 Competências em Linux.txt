@@ -1,0 +1,27 @@
+sandro@LG-R480:~$ uname -a
+Linux LG-R480 5.15.0-52-generic #58-Ubuntu SMP Thu Oct 13 08:03:55 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+sandro@LG-R480:~$ 
+sandro@LG-R480:~$ 
+sandro@LG-R480:~$ date
+qua 16 nov 2022 19:28:09 -03
+sandro@LG-R480:~$ 
+sandro@LG-R480:~$ 
+sandro@LG-R480:~$ date --help
+Uso: date [OPÇÃO]... [+FORMATO]
+ ou: date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
+Exibe o horário atual no FORMATO dado ou define a data do sistema.
+
+Argumentos obrigatórios para opções longas também o são para opções curtas.
+  -d, --date=TEXTO           exibe a hora descrita no TEXTO, não a de "agora"  -f, --file=ARQDATA         como --date; uma vez para cada linha de ARQDATA
+      --verbose              anota a data analisada e
+                              e avisa sobre uso questionável à saída padrão
+  -f, --file=ARQDATA         como --date; uma vez para cada linha de ARQDATA
+  -I[FMT], --iso-8601[=FMT]  emite a data e a hora no formato ISO 8601. etc...
+  
+  A ajuda do comando, "comando" --help exibe uma lista completa explicatica e com todas as opções no universo desse comando.
+  man comando → exibe o manual completo do comando com explicaçẽs mais detalhadas
+  type comando -> permite saber se o comando é interno do bash (possível de exibir o man) ou não
+ whatis “comando” → exibe uma frase curta e explicativa sobre o comando
+whereis comando → busca para saber onde está o man do comando
+apropos -> traz todos os comandos disponíves a partir de uma descrição ou função 	                             
+$PATH -> variável de ambiente onde se encontram todas as pastas dos comandos do bash
